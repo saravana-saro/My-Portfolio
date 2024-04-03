@@ -1,0 +1,119 @@
+/* project.css */
+.text-column1 {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+ 
+}
+
+.text-column h1,
+.text-column h2,
+.text-column p,
+.text-column1 h1,
+.text-column1 h2,
+.text-column1 p {
+  animation: fadeInUp 0.5s ease forwards; 
+}
+
+
+.text-column1 h1 {
+  font-size: 28px;
+  color: #333; 
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.text-column1 h2 {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.text-column1 p {
+  font-size: 18px;
+  color: #555; 
+  line-height: 1.5;
+
+}
+
+/* Second text column */
+.text-column1 {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.4;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-weight: 500;
+}
+
+.text-column1 h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+ 
+}
+
+.text-column1 h2 {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.text-column1 p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; 
+  color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .text-column1,
+  .text-column1 {
+    width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-column1 h1,
+  .text-column1 h1 {
+    font-size: 24px;
+  }
+
+  .text-column1 h2,
+  .text-column1 h2 {
+    font-size: 20px;
+  }
+
+  .text-column1 p,
+  .text-column1 p {
+    font-size: 16px;
+  }
+}
